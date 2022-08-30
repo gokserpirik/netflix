@@ -1,5 +1,6 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif"  width=200 height=200 alt="Netflix" />
+  <img src="https://user-images.githubusercontent.com/48176173/187518960-b7b789d9-1196-4969-8932-9ea6bf844148.png"  width=200 height=200 alt="Netflix" />
+
 
   &#xa0;
 
@@ -25,22 +26,14 @@
   <a href="https://github.com/gokserpirik" target="_blank">Author</a>
 </p>
 
+
 <br>
 <p align="center">
-  <img 
-  alt="Screenshot" 
-  src="" 
-  width=600>
+  <img   alt="Screenshot"   src="https://user-images.githubusercontent.com/48176173/187519076-b58084cf-3586-4ee1-995a-13230c499124.png"   width=600>
 
-  <img 
-  alt="Screenshot" 
-  src=""
-  width=600>
+  <img   alt="Screenshot"   src="https://user-images.githubusercontent.com/48176173/187519178-337ede7b-e70a-450a-be3c-831602e863d3.png"  width=600>
 
-  <img 
-  alt="Screenshot" 
-  src="" 
-  width=600 >
+  <img   alt="Screenshot"   src="https://user-images.githubusercontent.com/48176173/187519096-a930ca85-5e7a-42b4-9b7c-52c5c3d21d1e.png"   width=600 >
 
 </p>
 
