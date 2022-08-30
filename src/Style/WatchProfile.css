@@ -1,0 +1,231 @@
+.watch{
+
+    color:#fdfdfd;
+}
+
+.videobg{
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  
+}
+.watchFeatured{
+    z-index: 10000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    color: white;
+}
+.watch__p{
+
+  
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.watchHeader{
+    z-index: 10000000;
+    background: rgb(20,20,20);
+    background: linear-gradient(180deg, rgba(20,20,20,1) 1%, rgba(0,0,0,0.5760898109243697) 47%, rgba(255,0,61,0) 94%);
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: space-between;
+    position: absolute;
+    padding: 25px 40px 20px 40px;
+    width: calc(100% - 80px);
+}
+.watchHeader__left, .watchHeader_right {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+
+}
+.watchHeader__bar__item, #searchIcon, #bellIcon{
+    padding: 10px 10px 10px 10px;
+  
+}
+
+.watchHeader__logo{
+    width: 150px;
+    
+}
+
+#searchIcon, #bellIcon{
+    font-size:20px;
+
+}
+
+#watchHeader__img{
+    padding-left:5px ;
+    padding-right: 3px ;
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
+
+}
+
+@keyframes rollIcon {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+    
+}
+
+#caret{
+    font-size:15px
+}
+#caret:hover{
+
+    animation: rollIcon 0.3s forwards ;
+}
+
+.watchFeatured__title{
+    position: absolute;
+    top: 40%;
+    left:5px;
+    font-size: 1em;
+    font-weight: 300;
+    color: #fdfdfd;
+    padding: 25px 40px 20px 40px;
+    
+
+}
+
+.watchFeatured__title__show{
+    padding-bottom: 60px;
+    width: 200px;
+    height: 70px;
+    
+
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.watchFeatured__title__buttons{
+
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.watchFeatured__title__button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    place-items: center;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.watchFeatured__title__buttons__play{
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+    width: 90px;
+    background-color: #fdfdfd;
+    color: #141414;
+}
+.watchFeatured__title__buttons__more{
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+
+    width: 150px;
+    background-color: #fdfdfd50 ;
+    color: #fdfdfd;
+}
+
+
+
+/* watchContent */
+
+.watchContent{
+    padding: 25px 40px 20px 40px;
+    background: linear-gradient(to bottom, #14141400 0%,#141414 5%);  
+    z-index: 20000000;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: calc(100% - 80px);
+    color: white;
+}
+
+.watchContentCard__title{
+
+    font-weight: 700;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+
+.watchContentCard__content{
+    display: flex;
+    align-items: center;
+
+  gap: 5px;
+  height: 160px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+
+}
+
+
+.watchContentCard__content__item{ 
+
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex: 0 0 240px;
+
+    justify-content: center;
+
+    margin-right: 10px;
+    scroll-snap-align: start;
+    width: 240px;
+    height: 135px;
+    background-color: #fdfdfd;
+}
+
+
+.watchContentCard__content:focus-within .watchContentCard__content__item,
+.watchContentCard__content:hover .watchContentCard__content__item {
+  transform: translateX(-25%);
+
+}
+
+.watchContentCard__content__item:focus ~ .watchContentCard__content__item,
+.watchContentCard__content__item:hover ~ .watchContentCard__content__item {
+  transform: translateX(25%);
+}
+
+.watchContentCard__content .watchContentCard__content__item:focus,
+.watchContentCard__content .watchContentCard__content__item:hover {
+  transform: scale(1.5);
+  z-index: 10000;
+}
+
+.watchContentCard__content__item__image{
+    width: 100%;
+    height: 100%;
+    object-fit:cover
+
+}

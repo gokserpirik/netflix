@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+<div align="center" id="top"> 
+  <img src="./.github/app.gif"  width=200 height=200 alt="Netflix" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  &#xa0;
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+<h1 align="center">Netflix</h1>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- Status -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ <h4 align="center"> 
+	🚧  Netflix 🚀 There might be changes in the future...  🚧
+</h4> 
 
-### `npm test`
+<hr> 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="https://github.com/gokserpirik" target="_blank">Author</a>
+</p>
 
-### `npm run build`
+<br>
+<p align="center">
+  <img 
+  alt="Screenshot" 
+  src="" 
+  width=600>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <img 
+  alt="Screenshot" 
+  src=""
+  width=600>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <img 
+  alt="Screenshot" 
+  src="" 
+  width=600 >
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</p>
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## :dart: About ##
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A Netflix clone for web. Coded using ReactJS and Firebase. Connected to the Firebase database and using Firebase auth. There is a homepage, profile selection page, and selected profile's watch page.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## :sparkles: Features ##
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+:heavy_check_mark: Firebase Auth;\
+:heavy_check_mark: Firebase Firestore;
 
-## Learn More
+## :rocket: Technologies ##
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The following tools were used in this project:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React](https://pt-br.reactjs.org/)
+- [Firebase](https://firebase.google.com/)
 
-### Code Splitting
+## :white_check_mark: Requirements ##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Firebase Auth and Firestore are required to use this project. Check firebase.js.
 
-### Analyzing the Bundle Size
+## :checkered_flag: Starting ##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+# Clone this project
+$ git clone https://github.com/gokserpirik/netflix
 
-### Making a Progressive Web App
+# Access
+$ cd netflix
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Install dependencies
+$ npm i
 
-### Advanced Configuration
+# Run the project
+$ npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# The server will initialize in the <http://localhost:3000>
+```
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Made with :heart: by <a href="https://github.com/gokserpirik" target="_blank">Gökser Pirik</a>
 
-### `npm run build` fails to minify
+&#xa0;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Back to top</a>

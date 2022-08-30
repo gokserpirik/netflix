@@ -1,0 +1,204 @@
+.login{
+   
+    position: relative;
+    width: 100vw;
+}
+
+.loginHeader{
+
+    position: absolute;
+    top: 0;
+    width: calc(100% - 60px);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px 20px 30px;
+
+}
+
+.loginHeader__logo>img{
+   width: 150px; 
+
+}
+
+.loginHeader__buttons{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.loginHeader__buttons__lang{
+    height: 38px;
+  
+    border: 1px solid #ffffff;
+    border-radius: 1px;
+    padding: 5px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #00000000;
+    cursor: pointer;
+   
+}
+
+
+/* netflix login button */
+.loginHeader__buttons__login{
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: #e50815;
+    color: white;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+
+}
+.loginContent{
+
+    background-image: linear-gradient(to bottom, black,#00000080 , #00000070, #00000070, #00000080), url('./loginBackground.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+
+.loginContent__start{
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+.loginContent__start__title > h1{
+    font-size: 3.5em;
+    font-weight: bold;
+
+}
+
+
+.loginContent__start__title > h2{
+    font-size: 1.8em;
+    margin-top: -20px;
+    font-weight: 400;
+
+}
+
+.loginContent__start__title > h3{
+    font-size: 1.2em;
+    margin-top: 30px;
+    font-weight: 500;
+
+}
+
+.loginContent__start__form__btn{
+    padding: 10px 20px 10px 20px;
+
+    display: grid;
+    place-items: center;
+    background-color: #e50815;
+
+}
+#login_form_btn{
+
+    font-size: 25px;
+    height: 40px;
+    background-color: #e50815;
+    color: white;
+   
+    cursor: pointer;
+
+}
+
+.loginContent__start__form > form {
+    display: flex;
+    flex-direction: row;
+}
+
+.loginContent__start__form > form > input{
+    padding: 10px;
+    font-size: 25px;
+    height: 40px;
+    width: 400px;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+
+/* mobile css */
+
+@media screen and (max-width: 768px) {
+    .loginHeader{
+    width: calc(100% - 30px);
+
+        padding: 25px 15px 20px 15px;
+    }
+    .loginHeader__logo>img{
+        width: 120px;
+    }
+    .loginHeader__buttons__lang{
+        height: 30px;
+        font-size: 12px;
+    }
+    .loginHeader__buttons__login{
+        margin-left: 10px;
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+    }
+    .loginContent__start__title{
+       max-width: 70vw;
+
+    }
+    .loginContent__start__title > h1{
+        font-size: 1.7em;
+        font-weight: 800;
+
+    }
+    .loginContent__start__title > h2{
+        margin-top: 5px;
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+    .loginContent__start__title > h3{
+        font-size: 1em;
+        font-weight: 200;
+
+    }
+    #start__form{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+    }
+
+    .loginContent__start__form__btn{
+        margin-top: 10px;
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+
+    }
+    #login_form_btn{
+
+        height: 30px;
+
+      
+    }
+    .loginContent__start__form > form > input{
+        padding: 5px;
+        font-size: 15px;
+        height: 30px;
+        width: 300px;
+        font-size: 12px;
+        color: #000;
+        background-color: #fff;
+        cursor: pointer;
+    }
+}
